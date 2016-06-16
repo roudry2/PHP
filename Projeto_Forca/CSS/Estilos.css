@@ -136,14 +136,16 @@ table td,tr
     left: 15%;
     font-size: 50px;
     cursor: pointer;
-    visibility: hidden;
 }
 .divLinhasJogo
 {
     position: absolute;
-    background-color: peachpuff;
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 80%;
+    left: 10%;
+    top: 15%;
+    border: black solid 5px;
+    border-radius: 5px;
 }
 .button:hover
 {
@@ -189,6 +191,15 @@ table td,tr
     background-color: #7debff;
     color: white;
 }
+.lblLetras
+{
+    position: relative;
+    left: 27%;
+    top: 50%;
+    border-bottom: black solid 1px;
+    text-align: center;
+    font-size: 40px;
+}
             /*ID'S*/
 
 #demo
@@ -230,4 +241,22 @@ table td,tr
     width: 10%;
     height: 10%;
     top:auto;
+}
+#hangmanText
+{
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+#btnPista
+{
+    position: absolute;
+    left: 3%;
+    top: 90%;
+}
+#PALAVRA
+{
+    position: absolute;
+    top: 52%;
+    left: 5%;
+    font-size: 30px;
 }
